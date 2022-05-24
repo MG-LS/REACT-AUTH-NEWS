@@ -96,7 +96,7 @@ export const postNewsComt = (id, comt, user) => {
       });
       const data = await post.json();
       console.log(data);
-      dispatch({ type: "comt/fetch/add/fulfilled", payload: data });
+      dispatch({ type: "comt/fetch/add/fulfilled", payload: {comt, id} });
     } catch (e) {
       dispatch({ type: "comt/fetch/add/rejected", error: e.toString() });
     }
