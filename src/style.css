@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-image: url("https://images2.alphacoders.com/112/thumb-1920-1128856.jpg");
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.news {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.block_img {
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  vertical-align: middle;
+}
+.block_img img {
+  width: 100%;
+}
+
+.table_img {
+  display: table;
+}
+.todo-news {
+  width: 250px;
+  height: 600px;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.678);
+}
+.cart-news {
+  width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+.cart-info {
+  display: flex;
+  justify-content: space-between;
+}
+.comt {
+ padding: 20px;
+ width: 550px;
+ background-color: rgb(255, 255, 255);
+ align-items: center;
+ text-align: center;
+ align-content: center;
+ color: rgb(0, 0, 0);
+}
+.buti {
+ width: 100px;
+ height: 30px;
+ border: 1px solid black;
+ background-color:  white;
+}
+.comt input {
+ width: 80%;
+ height: 30px;
+ background-color: rgba(0, 0, 0, 0.425);
+ color: white;
+}
+
+.cart_i {
+ width: 600px;
+ margin-right: 20px;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(236, 236, 236);
+  background-color: rgba(0, 0, 0, 0.726);
+}
+.form {
+  width: 200px;
+  font-size: 20px;
+  display: flex;
+  padding-right: 20px;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.cat {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(236, 236, 236);
+  background-color: rgba(0, 0, 0, 0.726);
+  margin-top: 10px;
+}
+.info {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: black;
+}
+.todo-news button {
+  background-color: white;
+  color: white;
+  border: 1px solid white;
+  text-decoration: none;
+}
+.header p {
+  cursor: pointer;
+}
+.cat p {
+  cursor: pointer;
+}
+.news_img_p img {
+  width: 600px;
+}
+.office {
+  width: 800px;
+  background-color: rgba(0, 0, 0, 0.685);
+  margin: auto;
+  border: 2px solid black;
+}
+.registr {
+  width: 300px;
+  height: 600px;
+  margin: auto;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+.header_cart {
+  font-size: 40px;
+  color: white;
+  padding-bottom: 20px;
+}
+.footer_cart {
+  padding-top: 20px;
+  border-bottom: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.registr input {
+  width: 200px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0.767);
+  color: white;
+  border: 1px solid inherit;
+  border: none;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.registr button {
+  border: 1px solid red;
+  background-color: inherit;
+  color: white;
+  width: 150px;
+  height: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.registr p {
+  cursor: pointer;
+}
+.link {
+  color: rgb(208, 255, 0);
+  font-size: 18px;
+}
+.footer_cart_reg {
+  padding-top: 20px;
+  border-bottom: 1px solid red;
+  display: flex;
+  justify-content: end;
+  font-size: 16px;
+}
+.link_cart {
+  color: rgb(208, 255, 0);
+  font-size: 18px;
+  display: flex;
+  justify-content: end;
+}
+.over {
+  overflow: auto;
+  padding-top: 20px;
+  width: 100%;
+  height: 200px;
+}
+
+.over::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: rgb(255, 255, 255);
+}
+
+.over::-webkit-scrollbar-thumb {
+  background: rgb(255, 230, 0);
+}
